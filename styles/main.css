@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000;
+}
+
+.container{
+    display: flex;
+    justify-content:left;
+    margin-top: 150px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin: 70px  20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.first{
+    position: relative;
+    right: 30px;
+}
+.first:hover{
+    background-color: pink;
+}
+.second{
+    position: relative;
+    right: 90px;
+}
+.second:hover{
+    background-color: green;
+}
+
+.third{
+    position: relative;
+    right: 150px;
+}
+.third:hover{
+    background-color: red;
+}
+
+.four{
+    position: relative;
+    right: 210px;
+}
+.four:hover{
+    background-color: aquamarine;
+}
+.five{
+    position: relative;
+    right: 270px;
+}
+.five:hover{
+    background-color: antiquewhite;
+}
+.six{
+    position: relative;
+    right: 330px;
+}
+.six:hover{
+    background-color: blue;
+}
+.seven{
+    position: relative;
+    right: 390px;
+}
+.seven:hover{
+    background-color: azure;
+}
+.eight{
+    position: relative;
+    right: 450px;
+}
+.eight:hover{
+    background-color: palegreen;
+}
+#k{
+    color:#fff ;
+    position: relative;
+    left: 80px;
+    top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.first,.second,.third,.four,.five,.six,.seven,.eight{
+     background: linear-gradient( rgba(255, 0, 0, 0.123), rgba(255, 192, 203, 0.185), rgba(165, 42, 42, 0.192)); 
+
+}
